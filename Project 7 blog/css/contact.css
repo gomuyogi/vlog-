@@ -1,0 +1,200 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    html,body{
+    height: 100%;
+    width: 100%;
+    }
+    
+    #nav{
+        padding: 0.5vw 5vw;
+        display: flex;
+        align-items: center;justify-content: space-between;
+    }
+    
+    #nav .nav-text{
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+    }
+    
+    .nav-text input{
+        cursor: pointer;
+        padding: 0.5vw 1vw;
+        outline-color: aquamarine;
+        border-radius: 1vw;
+    }
+    
+    .nav-text button{
+        cursor: pointer;
+        padding: 0.5vw 1vw;
+        border-radius: 0.3vw;
+    }
+    
+    .nav-text button:hover{
+        background-color: rgba(128, 128, 128, 0.549);
+        transition: 0.4s;
+        border: 1px solid #000;
+    }
+    
+    #nav .nav-text:nth-child(1){
+        gap: 5vw;
+    }
+    
+    .nav-content a{
+        text-decoration: none;
+        margin: 0.5vw;
+        font-size: 1.3vw;
+        color: #000;
+    }
+    
+    .nav-content a:hover{
+        color: lightblue;
+        transition: 0.3s;
+    }
+    
+    .nav-img h6{
+        text-align: center;
+        color: lightcoral;
+    }
+    
+    .nav-text img{
+        height: 10vh;
+        width: 5vw;
+        border-radius: 50%;
+        border: 1px solid gray;
+        padding: 0.2vw;
+        object-fit: cover;
+    }
+    
+    .underline{
+        height: 2px;
+        background-color: gray;
+        margin: 1vw 2vw;
+    }
+
+    #page2{
+        min-height: 100vh;
+        margin: 5vh 10vw;
+    }
+
+    #page2 h2{
+        padding: 2vw 5vw;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-style: italic;
+        text-align: right;
+    }
+
+    #page2 .contact-content{
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(to right, transparent, rgba(255, 192, 203, 0.573));
+    }
+
+    .contact-content input{
+        margin: 1vw 3vw;
+        padding: 0.8vw;
+        width: 25vw;
+        outline-color: blue;
+    }
+
+    .contact-content textarea{
+        height: 20vh;
+        width: 25vw;
+        padding: 0.8vw;
+        margin: 1vw 3vw;
+    }
+
+    .contact-content button{
+        padding: 0.5vw;
+        width: fit-content;
+        margin: 1vw 5vw;
+    }
+
+    #page2 .contact-detail{
+        min-height: 30vh;
+        margin: 0.5vw 4vw;
+        position: relative;
+        border: 2px solid gray;
+        background: linear-gradient(-45deg, transparent, pink);
+    }
+
+    .contact-text{
+        display: flex;
+        padding: 1.5vw 4vw;
+        flex-direction: column;
+        line-height: 1.8vw;
+        justify-content: flex-start;
+    }
+
+    .contact-text h3{
+        font-size: 1.5vw;
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    .contact-text:nth-child(2){
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+
+
+
+
+    footer{
+        margin: 1vw 20vw;
+        min-height: 30vh;
+    }
+    
+    .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0.5vw 4vw;
+        border: 2px solid gray;
+        background: linear-gradient(to right, transparent, pink);
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
+    }
+    
+    .footer-text h2{
+        font-size: 1.5vw;
+        font-weight: 500;
+        font-style: italic;
+    }
+    
+    .footer-icon{
+        display: flex;
+        gap: 1vw;
+    }
+    
+    .footer-icon i{
+        font-size: 2vw;
+    }
+    
+    footer .last{
+        display: flex;
+        gap: 1vw;
+        margin: 1vw;
+    }
+    
+    .last h2{
+        font-weight: 400;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .footer-content:nth-child(2){
+        border-top: none;
+        border-radius: 0px;
+        margin-bottom: 5vh;
+    }
